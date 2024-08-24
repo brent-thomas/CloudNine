@@ -1,0 +1,74 @@
+*,
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.container {
+    background: linear-gradient(90deg, #0D1F2D, #1C4866);
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main {
+    width: 68%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.search-container {
+    display: table;
+    padding: 10px;
+}
+
+.search-container {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+.search-input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    background: transparent;
+    outline: none;
+    color: #ffffff;
+    width: 100%;
+}
+
+.logo {
+    height: 100px;
+}
+
+
+
+/*/Current Weather////*/
+.current_weather {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+
+/*/Weekly Weather////*/
+.weekly_weather {
+    width: 30%;
+    height: 80vh;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin-top: 4em;
+}
+
+/*/Hourly Weather////*/
+.hourly_weather {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 2em;
+}
