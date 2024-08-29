@@ -1,0 +1,55 @@
+.container {
+    background-color: rgb(255, 255, 255, 0.1);
+    padding: 2em;
+    margin-top: 1em;
+}
+
+.container h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.hourly_cards {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto; /* Enables horizontal scrolling */
+    scrollbar-color: #90a4ae #cfd8dc; /* For Firefox */
+    scrollbar-width: thin; /* For Firefox */
+    text-align: center;
+  }
+
+
+.hourly_cards::-webkit-scrollbar {
+    display: none;  /* Hide scrollbar on Chrome, Safari, and Opera */
+  }
+
+  .hourly_cards::-webkit-scrollbar {
+    height: 8px; /* Height of the horizontal scrollbar */
+  }
+  
+  .hourly_cards::-webkit-scrollbar-track {
+    background-color: #cfd8dc; /* Color of the track */
+  }
+  
+  .hourly_cards::-webkit-scrollbar-thumb {
+    background-color: #90a4ae; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners of the thumb */
+  }
+
+.card {
+    flex: 0 0 auto;
+    padding: 5px;
+    margin: 5px;
+    width: 80px;
+    border-right: solid 2px #686d80;
+}
+
+.hourly_icon {
+    width: 40px;
+    height: 40px;
+    margin: 10px auto;
+}
+
+.temp {
+    font-weight: bold;
+    font-size: 20px;
+}

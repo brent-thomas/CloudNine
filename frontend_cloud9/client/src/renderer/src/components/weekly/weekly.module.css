@@ -1,0 +1,25 @@
+.container {
+    background-color: rgb(255, 255, 255, 0.1);
+    padding: 2em;
+    margin-top: -5.5em;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.container h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.daily_icon {
+    height: 40px;
+    width: 40px;
+}
+
+.card {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

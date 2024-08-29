@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background: linear-gradient(90deg, #0D1F2D, #1C4866);
+    padding: 2em;
+    color: #fff;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header div {
+    width: 40%;
+    display: flex;
+    background-color: rgb(255, 255, 255, 0.3);
+    border-radius: 20px;
+
+}
+
+.header input {
+    background: transparent;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    outline: none;
+    width: 100%;
+    border-radius: 20px;
+    width: 80%;
+}
+
+.header input::placeholder {
+    color: #fff;
+}
+
+.header div button {
+    background: #fff;
+    color: #000;
+    border: none;
+    outline: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 20%;
+}
+.header div button:hover {
+    background: rgb(209, 230, 247);
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-column {
+    width: 70%;
+}
+
+.right-column {
+    width: 28%;
+}
+
+.logo {
+    height: 100px;
+}
+
+/* General scrollbar hiding */
+::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
+  
+  html {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
+  }
+
